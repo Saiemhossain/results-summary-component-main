@@ -1,0 +1,152 @@
+:root{
+  --priFont:'Hanken Grotesk', sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: var(--priFont);
+  display: flex;
+place-content: center;
+  font-weight: 400;
+background: hsl(252, 10%, 67%);
+ height: 100vh;
+
+}
+.card{
+  text-align: center;
+  display: flex;
+  margin: auto;
+  width: 740px;
+  align-items: center;
+  justify-content: center;
+ height: 100%;
+flex-direction: row;
+  border-radius: 10px;
+
+}
+.top-header{
+  width: 370px;
+  background:  hsl(241, 81%, 54%);
+  padding: 10px;
+ border-radius: 25px;
+ display: grid;
+place-content: center;
+}
+.title{
+  color:  hsla(0, 0%, 100%);
+  font-weight: 800;
+  font-family: var(--priFont);
+}
+h1{
+  color:  hsla(0, 0%, 100%);
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.title-2{
+  color:hsla(0, 0%, 100%); 
+  font-weight: 500;
+  margin-left: 15px;
+
+}
+p{
+  color:  hsl(241, 100%, 89%);
+}
+.circle{
+  background: hsla(256, 72%, 46%, 1);
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-left: 35%;
+   place-items: center;
+   position: relative;
+
+}
+
+.round-p{
+  color: hsl(241, 100%, 89%); 
+  font-size: 18px;
+}
+.last{
+  width: 340px;
+  background: hsla(0, 0%, 100%);
+  border-radius: 10px;
+ padding: 10px;
+
+}
+.summary{
+  color: hsl(224, 30%, 27%);
+  text-align: left;
+  margin-left: 5px;
+
+}
+.badge{
+  display: flex;
+  justify-content: space-between;
+  padding:5px;
+  flex-direction: row;
+  text-align: center;
+  margin: 0 10px;
+}
+
+.achivement{
+  margin-left: 15px;
+  
+}
+.react{
+  margin-left: 70px;
+  
+}
+.memory{
+  margin-left: 78px;
+}
+.verbal{
+  margin-left: 84px;
+}
+.visual{
+  margin-left: 90px;
+}
+.one{
+  color: hsl(0, 100%, 67%);
+  background-color: hsl(0, 100%, 67% , 0.1); ;
+ 
+}
+.two{
+  color: hsl(39, 100%, 56%);
+  background-color: hsl(39, 100%, 56% , 0.2);
+ 
+}
+.three{
+  color: hsl(166, 100%, 37%);
+  background-color:hsl(166, 100%, 37%, 0.1); 
+}
+.four{
+  color: hsl(234, 85%, 45%);
+  background-color: hsl(234, 85%, 45%,0.1);
+}
+button{
+  background:hsl(224, 30%, 27%);
+  padding: 10px 70px;
+  border-radius: 10px;
+  margin-right: 55px;
+ color:hsla(0, 0%, 100%) ;
+ margin-top: 10px;
+
+}
+
+/*Responsive css*/
+
+@media only screen and (min-width:375px) and (max-width:1440px){
+.card{
+flex-direction:column;
+}
+
+}
+
